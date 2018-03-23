@@ -1,0 +1,498 @@
+@import 'variables';
+@import 'fonts';
+
+body
+{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+
+
+    @media #{$media-xs}, #{$media-sm} {
+    	font-size: 18px;
+    }
+
+}
+
+.grapper{
+    width: 100%;
+
+    overflow: hidden;
+}
+
+h1
+{
+    font-family: 'Anton', sans-serif;
+    font-size: 6em;
+    line-height: 20px;
+
+    color: #333;
+
+    @media #{$media-xs}, #{$media-sm}  {
+            	font-size: 3em;
+            }
+}
+h2
+{
+    font-family: 'Anton', sans-serif;
+    font-size: 4em;
+
+
+
+     @media #{$media-xs}, #{$media-sm}  {
+            	font-size: 2em;
+            	letter-spacing: 2px;
+            }
+}
+
+h3{
+	margin: 0 !important;
+}
+
+a
+{
+    text-decoration: none;
+}
+
+a:hover
+{
+    text-decoration: none;
+}
+
+a:visited
+{
+    text-decoration: none;
+}
+
+
+
+
+a.menu
+{
+    font-family: 'Anton', sans-serif;
+    font-size: 18px;
+    line-height: 30px;
+
+    position: fixed;
+    z-index: 300;
+    top: 20px;
+    right: 20px;
+
+    display: block;
+
+    height: 30px;
+    padding: 0 5px;
+
+    color: #111;
+    background: #fff;
+}
+
+.menuWrap
+{
+    position: fixed;
+    z-index: 310;
+    top: -700px;
+    left: 0 ;
+
+
+
+    width: 100%;
+    height: 100%;
+    top: -100%;
+
+
+    background: rgba(0,56,67, 1);
+
+
+    @media #{$media-xs}, #{$media-sm}  {
+            	top: -700px;
+            }
+    .menuClose{
+    	position: absolute;
+    	top: 20px;
+    	right: 20px;
+    }
+    ul
+    {
+        float: left;
+
+        width: 100%;
+
+        padding: 0;
+        margin: 0;
+        margin-top: 10%;
+
+
+        li
+        {
+            float: left;
+
+            width: 100%;
+            text-align: center;
+            list-style: none;
+
+            a
+            {
+                font-family: 'Anton', sans-serif;
+                font-size: 4em;
+                line-height: 70px;
+
+                height: 70px;
+                width: 100%;
+                text-align: center;
+                display: block;
+                float: left;
+                margin-left: 0;
+
+
+                color: #fff;
+                @media #{$media-xs}, #{$media-sm} {
+                	font-size: 2em;
+                }
+                &:hover
+                {
+                    -webkit-transition: all .3s ease-in-out 0s;
+                       -moz-transition: all .3s ease-in-out 0s;
+                        -ms-transition: all .3s ease-in-out 0s;
+                         -o-transition: all .3s ease-in-out 0s;
+                            transition: all .3s ease-in-out 0s;
+
+                    color: #18a7b8 !important;
+                }
+            }
+        }
+    }
+}
+
+
+.head
+{
+    width: 100%;
+    min-height: 800px;
+    position: relative;
+    float: left;
+
+    background: url('../img_general/01.jpg') 70% 0 no-repeat fixed;
+    @media #{$media-xs}, #{$media-sm}
+    {
+        min-height: 500px;
+        background: url('../img_general/01_adap.jpg') 0 0 no-repeat fixed;
+        background-size: 100%;
+
+
+
+
+    }
+    .name
+    {
+        float: left;
+
+        width: auto;
+        padding: 6%;
+
+        h2
+        {
+            font-family: yanone_kaffeesatzlight !important;
+            font-size: 3em !important;
+
+            color: #18a7b8;
+            @media #{$media-xs}, #{$media-sm} {
+            	font-size:26px !important;
+            }
+
+        }
+    }
+}
+
+.aboutMe
+{
+    width: 100%;
+    min-height: 800px;
+    position: relative;
+    float: left;
+    padding: 6%;
+
+
+    color: #fff;
+    background: url('../img_general/02.jpg') no-repeat fixed;
+    @media #{$media-xs}, #{$media-sm}
+    {
+        min-height: auto;
+         padding: 20% 6%;
+         margin-top: -50px;
+
+
+    }
+}
+
+.iDo
+{
+    width: 100%;
+    min-height: 800px;
+    position: relative;
+    float: left;
+    padding: 6%;
+    z-index: 200;
+
+    background: url('../img_general/03.jpg') no-repeat fixed;
+    font-family: yanone_kaffeesatzlight !important;
+    @media #{$media-xs}, #{$media-sm}
+    {
+        min-height: auto;
+         padding: 20% 6%;
+         margin-top: -50px;
+         background:  url('../img_general/03_adap.jpg') 0 0 no-repeat fixed;
+         background-size: 100%;
+
+
+    }
+
+    h3{
+    	font-size: 2em;
+    }
+    h4{
+    	font-size: 1.4em;
+    }
+}
+.services
+{
+    width: 100%;
+    min-height: 800px;
+    position: relative;
+    float: left;
+    padding: 6%;
+    background: url('../img_general/04.jpg') no-repeat fixed;
+
+
+    @media #{$media-xs}, #{$media-sm}
+    {
+        min-height: auto;
+
+         margin-top: -100px;
+         background-size: 100%;
+         background: url('../img_general/04_adap.jpg') no-repeat fixed;
+
+
+    }
+    .serviceItem
+    {
+        width: 100%;
+
+        text-align: center;
+        p{
+        	font-size: 2em;
+
+        }
+        @media #{$media-xs}, #{$media-sm} {
+            width: 70%;
+            margin-left: 15%;
+        }
+    }
+    img
+    {
+        margin: 0 auto;
+    }
+}
+
+.portfolio
+{
+    width: 100%;
+    min-height: 800px;
+    position: relative;
+    float: left;
+    padding: 6%;
+
+//	margin-top: 200px;
+	z-index: 200;
+    color: #fff;
+    background: #26D2E8 url('../img_general/05.jpg') no-repeat fixed;
+
+    @media #{$media-xs}, #{$media-sm}
+    {
+        min-height: auto;
+
+         margin-top: 0;
+        background: #086f80;
+
+
+    }
+
+
+    .portfolioMin
+    {
+        float: left;
+
+        width: 100%;
+        @media #{$media-xs}, #{$media-sm}
+        {
+            width: 100%;
+        }
+
+        .thum{
+        	a{
+        		background: #fff;
+        		display: block;
+        	}
+        }
+        img
+        {
+            margin-bottom: 20px;
+
+            -webkit-transition: all .3s ease-out  0s;
+               -moz-transition: all .3s ease-out  0s;
+                -ms-transition: all .3s ease-out  0s;
+                 -o-transition: all .3s ease-out  0s;
+                    transition: all .3s ease-out  0s;
+            &:hover
+            {
+                -webkit-transform: scale(1.06); /* Chrome - Safari */
+                   -moz-transform: scale(1.06); /* Firefox */
+                    -ms-transform: scale(1.06); /* IE9 */
+                     -o-transform: scale(1.06); /* Opera */
+                        transform: scale(1.06);
+
+
+                opacity: .3;
+            }
+        }
+    }
+}
+
+.contactUs
+{
+    width: 100%;
+    min-height: 900px;
+    position: relative;
+    float: left;
+    padding: 6%;
+//    margin-top: -500px;
+
+    background: url('../img_general/06.jpg') no-repeat fixed;
+
+    h2{
+    	color: #111;
+    }
+    @media #{$media-xs}, #{$media-sm}  {
+    	color: #EDEDED;
+        background: url('../img_general/06_adap.jpg') 0 0 no-repeat  scroll;
+        background-size: 100%;
+        min-height: 400px;
+        padding-top: 100px;
+        p{
+            color: #111;
+        }
+
+    }
+    .phone{
+    	font-size: 2em;
+    	line-height: 24px;
+    	font-family: yanone_kaffeesatzlight !important;
+
+    	  @media #{$media-xs}, #{$media-sm} {
+    			font-size: 1.3em;
+                font-weight: bold;
+
+    		}
+
+
+    }
+
+    .icon{
+    		width: 24px;
+    		height: 24px;
+    		margin-right: 5px;
+    		float: left;
+    		display: block;
+    		background: url('../img_general/wapp.png');
+    		@media #{$media-xs}, #{$media-sm} {
+    		// 	background: url('../img_general/wapp_xs.png');
+    		}
+    	}
+}
+
+
+#iDo, #container1, #aboutMe, #services
+{
+    position: relative;
+    float: left;
+
+
+}
+
+.rights{
+	font-size: 12px;
+	margin-top: 30px;
+	@media #{$media-xs}, #{$media-sm} {
+		font-size: 11px;
+	}
+}
+
+
+.portfolioFull{
+	height: auto;
+	padding: 50px 0;
+	text-align: center;
+	float: left;
+	width: 100%;
+	position: relative;
+//	background: rgba(0,56,67, 1);
+	background: #F4F4F4;
+	color: #111;
+	display: none;
+	img{
+		margin: 0 auto;
+		display: none;
+	}
+	h2{
+		color: #111;
+		font-family: yanone_kaffeesatzlight !important;
+		margin-bottom: 20px;
+	}
+	p{
+		margin-bottom: 50px;
+	}
+
+	a{
+
+		width: 40px;
+		height: 40px;
+		display: block;
+		position: absolute;
+		top: 40px;
+		left: 50%;
+		margin-left: -20px;
+		border-radius: 50%;
+		background: #003843;
+		svg{
+			margin-top: 9px;
+
+		}
+	}
+
+}
+
+.desc{
+
+	float: left;
+	width: 100%;
+}
+
+.tipo{
+
+
+
+    @media #{$media-xs}, #{$media-sm}  {
+    	font-size: 22px ;
+
+    }
+}
+
+
+h2.name{
+
+
+
+    @media #{$media-xs}, #{$media-sm}  {
+    	padding-top: 20px !important;
+
+    }
+}
