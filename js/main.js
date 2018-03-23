@@ -56,7 +56,7 @@ jQuery(document).ready(function($) {
 
 
 		$(".js-menuWrap").animate({
-			top: '-700px'
+			top: '-100%'
 		});
 
 
