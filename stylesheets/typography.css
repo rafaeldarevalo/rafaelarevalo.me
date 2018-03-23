@@ -1,0 +1,117 @@
+/* -----------------------------------------
+   Font-face:
+----------------------------------------- */
+
+@font-face{
+font-family:"Lane_Narrow";
+				src: url('../font/altehaasgroteskbold.eot');
+				src: url('../font/altehaasgroteskbold.eot?#iefix') format('embedded-opentype'),
+						 url('../font/altehaasgroteskbold.woff') format('woff'),
+						 url('../font/altehaasgroteskbold.ttf') format('truetype'),
+						 url('../font/altehaasgroteskbold.svg#altehaasgroteskbold') format('svg');
+				font-weight: normal;
+				font-style: normal;
+}
+
+
+
+@font-face{
+font-family:"Nexa_Light";
+src: url('../font/yanonekaffeesatz-light.eot');
+				src: url('../font/yanonekaffeesatz-light.eot?#iefix') format('embedded-opentype'),
+						 url('../font/yanonekaffeesatz-light.woff') format('woff'),
+						 url('../font/yanonekaffeesatz-light.ttf') format('truetype'),
+						 url('../font/yanonekaffeesatz-light.svg#yanonekaffeesatz-light') format('svg');
+				font-weight: normal;
+				font-style: normal;
+}
+
+@font-face{
+font-family:"Nexa_Bold";
+src: url('../font/altehaasgroteskbold.eot');
+				src: url('../font/altehaasgroteskbold.eot?#iefix') format('embedded-opentype'),
+						 url('../font/altehaasgroteskbold.woff') format('woff'),
+						 url('../font/altehaasgroteskbold.ttf') format('truetype'),
+						 url('../font/altehaasgroteskbold.svg#altehaasgroteskbold') format('svg');
+				font-weight: normal;
+				font-style: normal;
+}
+
+
+@font-face{
+font-family:"Hero_Light";
+src: url('../font/altehaasgroteskbold.eot');
+				src: url('../font/altehaasgroteskbold.eot?#iefix') format('embedded-opentype'),
+						 url('../font/altehaasgroteskbold.woff') format('woff'),
+						 url('../font/altehaasgroteskbold.ttf') format('truetype'),
+						 url('../font/altehaasgroteskbold.svg#altehaasgroteskbold') format('svg');
+				font-weight: normal;
+				font-style: normal;
+}
+
+
+
+@font-face{
+font-family:"liberation_Sans";
+src: url('../font/altehaasgroteskbold.eot');
+				src: url('../font/altehaasgroteskbold.eot?#iefix') format('embedded-opentype'),
+						 url('../font/altehaasgroteskbold.woff') format('woff'),
+						 url('../font/altehaasgroteskbold.ttf') format('truetype'),
+						 url('../font/altehaasgroteskbold.svg#altehaasgroteskbold') format('svg');
+				font-weight: normal;
+				font-style: normal;
+}
+
+@font-face{
+font-family:"Bebas_Neue";
+src: url('fonts/bebas_neue/bebasneue-webfont.html');
+src:
+url('fonts/bebas_neue/bebasneue-webfontd41d.html?#iefix') format('embedded-opentype'),
+url('fonts/bebas_neue/bebasneue-webfont-2.html') format('woff'),
+url('fonts/bebas_neue/bebasneue-webfont-3.html') format('truetype'),
+url('fonts/bebas_neue/bebasneue-webfont-4.html#webfont') format('svg');
+}
+
+@font-face{
+font-family:"Ostrich_Sans_Regular";
+src: url('fonts/ostrich_sans_regular/ostrich_regular-webfont.eot');
+src:
+url('fonts/ostrich_sans_regular/ostrich_regular-webfontd41d.eot?#iefix') format('embedded-opentype'),
+url('fonts/ostrich_sans_regular/ostrich_regular-webfont.woff') format('woff'),
+url('fonts/ostrich_sans_regular/ostrich_regular-webfont.ttf') format('truetype'),
+url('fonts/ostrich_sans_regular/ostrich_regular-webfont.svg#webfont') format('svg');
+}
+
+@font-face{
+font-family:"Ostrich_Sans_Black";
+src: url('../font/altehaasgroteskbold.eot');
+				src: url('../font/altehaasgroteskbold.eot?#iefix') format('embedded-opentype'),
+						 url('../font/altehaasgroteskbold.woff') format('woff'),
+						 url('../font/altehaasgroteskbold.ttf') format('truetype'),
+						 url('../font/altehaasgroteskbold.svg#altehaasgroteskbold') format('svg');
+				font-weight: normal;
+				font-style: normal;
+}
+@font-face{
+src: url('../font/altehaasgroteskbold.eot');
+				src: url('../font/altehaasgroteskbold.eot?#iefix') format('embedded-opentype'),
+						 url('../font/altehaasgroteskbold.woff') format('woff'),
+						 url('../font/altehaasgroteskbold.ttf') format('truetype'),
+						 url('../font/altehaasgroteskbold.svg#altehaasgroteskbold') format('svg');
+				font-weight: normal;
+				font-style: normal;
+}
+
+
+p{
+
+color: #333;
+}
+.border-top{
+	padding-top: 20px;
+	border-top: solid 1px #aaa;
+}
+.border-bottom{
+	padding-bottom: 20px;
+	border-bottom: solid 1px #aaa;
+}
