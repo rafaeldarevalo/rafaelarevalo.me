@@ -104,26 +104,18 @@ $(function(){
 
 
 // When the DOM is ready
-$(function() {
+// $(function() {
 
-  // Init ScrollMagic Controller
-  var scrollMagicController = new ScrollMagic();
-
-
-   // Create Animation for 0.5s
-  var tween2 = TweenMax.staggerFrom('.thum', 0.5, {top: 400}, 0.1);
-  var scene2 = new ScrollScene({triggerElement: '.portfolio', offset: -100, duration: 800})
-  .setTween(tween2)
-  .addTo(scrollMagicController);
+//   // Init ScrollMagic Controller
+//   var scrollMagicController = new ScrollMagic();
 
 
-
-
-
-
-
-
-});
+//    // Create Animation for 0.5s
+//   var tween2 = TweenMax.staggerFrom('.thum', 0.5, {top: 400}, 0.1);
+//   var scene2 = new ScrollScene({triggerElement: '.portfolio', offset: -100, duration: 800})
+//   .setTween(tween2)
+//   .addTo(scrollMagicController);
+// });
 
 
 
