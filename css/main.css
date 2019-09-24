@@ -36,7 +36,7 @@ h1 {
   font-family: 'Anton', sans-serif;
   font-size: 6em;
   line-height: 20px;
-  color: #fff;
+  color: #111;
 }
 @media only screen and (min-width: 0) and (max-width: 767px), only screen and (min-width: 768px) and (max-width: 991px) {
   h1 {
