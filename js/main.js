@@ -50,7 +50,7 @@ jQuery(document).ready(function($) {
 
 	});
 
-	$(".menuClose, .js-menuWrap ul li a").on('click', function(event) {
+	$(".menuClose, .js-menuWrap ul li a.js-nav").on('click', function(event) {
 		event.preventDefault();
 
 
