@@ -90,7 +90,6 @@ a.menu
 {
     position: fixed;
     z-index: 310;
-    top: -700px;
     left: 0 ;
 
 
@@ -103,9 +102,9 @@ a.menu
     background: rgba(0,56,67, 1);
 
 
-    @media #{$media-xs}, #{$media-sm}  {
-            	top: -700px;
-            }
+    // @media #{$media-xs}, #{$media-sm}  {
+    //         	top: -700px;
+    //         }
     .menuClose{
     	position: absolute;
     	top: 20px;

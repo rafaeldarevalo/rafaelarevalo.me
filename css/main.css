@@ -4,24 +4,24 @@
 @import url(http://fonts.googleapis.com/css?family=Open+Sans);
 @import url(http://fonts.googleapis.com/css?family=Anton);
 @font-face {
-  font-family: 'yanone_kaffeesatzlight';
+  font-family: "yanone_kaffeesatzlight";
   src: url("../font/yanoneka/yanonekaffeesatz-light-webfont.eot");
   src: url("../font/yanoneka/yanonekaffeesatz-light-webfont.eot?#iefix") format("embedded-opentype"), url("../font/yanoneka/yanonekaffeesatz-light-webfont.woff2") format("woff2"), url("../font/yanoneka/yanonekaffeesatz-light-webfont.woff") format("woff"), url("../font/yanoneka/yanonekaffeesatz-light-webfont.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
-  font-family: 'couturebold';
+  font-family: "couturebold";
   src: url("../font/couture/couture-bld-webfont.eot");
   src: url("../font/couture/couture-bld-webfont.eot?#iefix") format("embedded-opentype"), url("../font/couture/couture-bld-webfont.woff2") format("woff2"), url("../font/couture/couture-bld-webfont.woff") format("woff"), url("../font/couture/couture-bld-webfont.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
 }
 body {
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-size: 16px;
 }
-@media only screen and (min-width: 0) and (max-width: 767px), only screen and (min-width: 768px) and (max-width: 991px) {
+@media only screen and (min-width: 0) and (max-width:767px), only screen and (min-width: 768px) and (max-width:991px) {
   body {
     font-size: 18px;
   }
@@ -33,22 +33,22 @@ body {
 }
 
 h1 {
-  font-family: 'Anton', sans-serif;
+  font-family: "Anton", sans-serif;
   font-size: 6em;
   line-height: 20px;
-  color: #111;
+  color: #333;
 }
-@media only screen and (min-width: 0) and (max-width: 767px), only screen and (min-width: 768px) and (max-width: 991px) {
+@media only screen and (min-width: 0) and (max-width:767px), only screen and (min-width: 768px) and (max-width:991px) {
   h1 {
     font-size: 3em;
   }
 }
 
 h2 {
-  font-family: 'Anton', sans-serif;
+  font-family: "Anton", sans-serif;
   font-size: 4em;
 }
-@media only screen and (min-width: 0) and (max-width: 767px), only screen and (min-width: 768px) and (max-width: 991px) {
+@media only screen and (min-width: 0) and (max-width:767px), only screen and (min-width: 768px) and (max-width:991px) {
   h2 {
     font-size: 2em;
     letter-spacing: 2px;
@@ -72,7 +72,7 @@ a:visited {
 }
 
 a.menu {
-  font-family: 'Anton', sans-serif;
+  font-family: "Anton", sans-serif;
   font-size: 18px;
   line-height: 30px;
   position: fixed;
@@ -89,22 +89,11 @@ a.menu {
 .menuWrap {
   position: fixed;
   z-index: 310;
-  top: -750px;
   left: 0;
   width: 100%;
   height: 100%;
   top: -100%;
   background: #003843;
-}
-@media only screen and (min-width: 0) and (max-width: 767px), only screen and (min-width: 768px) and (max-width: 991px) {
-  .menuWrap {
-    top: -750px;
-    
-  }
-  h1{
-    line-height: 54px;
-    font-size: 42px;
-  }
 }
 .menuWrap .menuClose {
   position: absolute;
@@ -125,7 +114,7 @@ a.menu {
   list-style: none;
 }
 .menuWrap ul li a {
-  font-family: 'Anton', sans-serif;
+  font-family: "Anton", sans-serif;
   font-size: 4em;
   line-height: 70px;
   height: 70px;
@@ -136,17 +125,17 @@ a.menu {
   margin-left: 0;
   color: #fff;
 }
-@media only screen and (min-width: 0) and (max-width: 767px), only screen and (min-width: 768px) and (max-width: 991px) {
+@media only screen and (min-width: 0) and (max-width:767px), only screen and (min-width: 768px) and (max-width:991px) {
   .menuWrap ul li a {
     font-size: 2em;
   }
 }
 .menuWrap ul li a:hover {
-  -webkit-transition: all .3s ease-in-out 0s;
-  -moz-transition: all .3s ease-in-out 0s;
-  -ms-transition: all .3s ease-in-out 0s;
-  -o-transition: all .3s ease-in-out 0s;
-  transition: all .3s ease-in-out 0s;
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  -moz-transition: all 0.3s ease-in-out 0s;
+  -ms-transition: all 0.3s ease-in-out 0s;
+  -o-transition: all 0.3s ease-in-out 0s;
+  transition: all 0.3s ease-in-out 0s;
   color: #18a7b8 !important;
 }
 
@@ -155,9 +144,9 @@ a.menu {
   min-height: 800px;
   position: relative;
   float: left;
-  background: #181818 url("../img_general/01.jpg") 0 0 no-repeat fixed;
+  background: url("../img_general/01.jpg") 70% 0 no-repeat fixed;
 }
-@media only screen and (min-width: 0) and (max-width: 767px), only screen and (min-width: 768px) and (max-width: 991px) {
+@media only screen and (min-width: 0) and (max-width:767px), only screen and (min-width: 768px) and (max-width:991px) {
   .head {
     min-height: 500px;
     background: url("../img_general/01_adap.jpg") 0 0 no-repeat fixed;
@@ -174,7 +163,7 @@ a.menu {
   font-size: 3em !important;
   color: #18a7b8;
 }
-@media only screen and (min-width: 0) and (max-width: 767px), only screen and (min-width: 768px) and (max-width: 991px) {
+@media only screen and (min-width: 0) and (max-width:767px), only screen and (min-width: 768px) and (max-width:991px) {
   .head .name h2 {
     font-size: 26px !important;
   }
@@ -189,7 +178,7 @@ a.menu {
   color: #fff;
   background: url("../img_general/02.jpg") no-repeat fixed;
 }
-@media only screen and (min-width: 0) and (max-width: 767px), only screen and (min-width: 768px) and (max-width: 991px) {
+@media only screen and (min-width: 0) and (max-width:767px), only screen and (min-width: 768px) and (max-width:991px) {
   .aboutMe {
     min-height: auto;
     padding: 20% 6%;
@@ -207,7 +196,7 @@ a.menu {
   background: url("../img_general/03.jpg") no-repeat fixed;
   font-family: yanone_kaffeesatzlight !important;
 }
-@media only screen and (min-width: 0) and (max-width: 767px), only screen and (min-width: 768px) and (max-width: 991px) {
+@media only screen and (min-width: 0) and (max-width:767px), only screen and (min-width: 768px) and (max-width:991px) {
   .iDo {
     min-height: auto;
     padding: 20% 6%;
@@ -231,7 +220,7 @@ a.menu {
   padding: 6%;
   background: url("../img_general/04.jpg") no-repeat fixed;
 }
-@media only screen and (min-width: 0) and (max-width: 767px), only screen and (min-width: 768px) and (max-width: 991px) {
+@media only screen and (min-width: 0) and (max-width:767px), only screen and (min-width: 768px) and (max-width:991px) {
   .services {
     min-height: auto;
     margin-top: -100px;
@@ -246,7 +235,7 @@ a.menu {
 .services .serviceItem p {
   font-size: 2em;
 }
-@media only screen and (min-width: 0) and (max-width: 767px), only screen and (min-width: 768px) and (max-width: 991px) {
+@media only screen and (min-width: 0) and (max-width:767px), only screen and (min-width: 768px) and (max-width:991px) {
   .services .serviceItem {
     width: 70%;
     margin-left: 15%;
@@ -264,9 +253,9 @@ a.menu {
   padding: 6%;
   z-index: 200;
   color: #fff;
-  background: #26d2e8 url("../img_general/05.jpg") no-repeat fixed;
+  background: #26D2E8 url("../img_general/05.jpg") no-repeat fixed;
 }
-@media only screen and (min-width: 0) and (max-width: 767px), only screen and (min-width: 768px) and (max-width: 991px) {
+@media only screen and (min-width: 0) and (max-width:767px), only screen and (min-width: 768px) and (max-width:991px) {
   .portfolio {
     min-height: auto;
     margin-top: 0;
@@ -277,7 +266,7 @@ a.menu {
   float: left;
   width: 100%;
 }
-@media only screen and (min-width: 0) and (max-width: 767px), only screen and (min-width: 768px) and (max-width: 991px) {
+@media only screen and (min-width: 0) and (max-width:767px), only screen and (min-width: 768px) and (max-width:991px) {
   .portfolio .portfolioMin {
     width: 100%;
   }
@@ -288,11 +277,11 @@ a.menu {
 }
 .portfolio .portfolioMin img {
   margin-bottom: 20px;
-  -webkit-transition: all .3s ease-out  0s;
-  -moz-transition: all .3s ease-out  0s;
-  -ms-transition: all .3s ease-out  0s;
-  -o-transition: all .3s ease-out  0s;
-  transition: all .3s ease-out  0s;
+  -webkit-transition: all 0.3s ease-out 0s;
+  -moz-transition: all 0.3s ease-out 0s;
+  -ms-transition: all 0.3s ease-out 0s;
+  -o-transition: all 0.3s ease-out 0s;
+  transition: all 0.3s ease-out 0s;
 }
 .portfolio .portfolioMin img:hover {
   -webkit-transform: scale(1.06);
@@ -304,7 +293,7 @@ a.menu {
   -o-transform: scale(1.06);
   /* Opera */
   transform: scale(1.06);
-  opacity: .3;
+  opacity: 0.3;
 }
 
 .contactUs {
@@ -318,7 +307,7 @@ a.menu {
 .contactUs h2 {
   color: #111;
 }
-@media only screen and (min-width: 0) and (max-width: 767px), only screen and (min-width: 768px) and (max-width: 991px) {
+@media only screen and (min-width: 0) and (max-width:767px), only screen and (min-width: 768px) and (max-width:991px) {
   .contactUs {
     color: #EDEDED;
     background: url("../img_general/06_adap.jpg") 0 0 no-repeat scroll;
@@ -335,7 +324,7 @@ a.menu {
   line-height: 24px;
   font-family: yanone_kaffeesatzlight !important;
 }
-@media only screen and (min-width: 0) and (max-width: 767px), only screen and (min-width: 768px) and (max-width: 991px) {
+@media only screen and (min-width: 0) and (max-width:767px), only screen and (min-width: 768px) and (max-width:991px) {
   .contactUs .phone {
     font-size: 1.3em;
     font-weight: bold;
@@ -349,7 +338,6 @@ a.menu {
   display: block;
   background: url("../img_general/wapp.png");
 }
-
 #iDo, #container1, #aboutMe, #services {
   position: relative;
   float: left;
@@ -359,7 +347,7 @@ a.menu {
   font-size: 12px;
   margin-top: 30px;
 }
-@media only screen and (min-width: 0) and (max-width: 767px), only screen and (min-width: 768px) and (max-width: 991px) {
+@media only screen and (min-width: 0) and (max-width:767px), only screen and (min-width: 768px) and (max-width:991px) {
   .rights {
     font-size: 11px;
   }
@@ -408,14 +396,16 @@ a.menu {
   width: 100%;
 }
 
-@media only screen and (min-width: 0) and (max-width: 767px), only screen and (min-width: 768px) and (max-width: 991px) {
+@media only screen and (min-width: 0) and (max-width:767px), only screen and (min-width: 768px) and (max-width:991px) {
   .tipo {
     font-size: 22px;
   }
 }
 
-@media only screen and (min-width: 0) and (max-width: 767px), only screen and (min-width: 768px) and (max-width: 991px) {
+@media only screen and (min-width: 0) and (max-width:767px), only screen and (min-width: 768px) and (max-width:991px) {
   h2.name {
     padding-top: 20px !important;
   }
 }
+
+/*# sourceMappingURL=main.css.map */
