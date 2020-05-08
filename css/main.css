@@ -127,6 +127,11 @@ a.menu {
   margin: 0;
   margin-top: 10%;
 }
+@media only screen and (min-width: 0) and (max-width:767px), only screen and (min-width: 768px) and (max-width:991px) {
+  .menuWrap ul {
+    margin-top: 50%;
+  }
+}
 .menuWrap ul li {
   float: left;
   width: 100%;

@@ -152,7 +152,11 @@ a.menu
     	right: 20px;
     }
     ul
+    
     {
+         @media #{$media-xs}, #{$media-sm}  {
+            margin-top: 50%;
+                    }
         float: left;
 
         width: 100%;
