@@ -255,11 +255,6 @@ main.supp-test-result {
   padding: 1rem;
   border-radius: 20px;
 }
-@media (min-width: 992px) {
-  main.supp-test-result {
-    padding: 4.625rem;
-  }
-}
 
 .accordion {
   width: 100%;
