@@ -228,8 +228,8 @@ div, h2, h3, h4, a, span {
   left: 0;
   width: 1000%;
   height: 100%;
-  background: url("../images/wave_1.svg");
-  background-size: 3rem;
+  background: url("../images/wave_1.svg") !important;
+  background-size: 3rem !important;
   opacity: 0.08;
   transform: translateX(-500%);
   z-index: 1;
